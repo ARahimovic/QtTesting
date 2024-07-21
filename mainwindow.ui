@@ -77,6 +77,18 @@ QPushButton[pagematches=true]:pressed {
          <height>70</height>
         </size>
        </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton 
+{
+color : red;
+background-color : green;
+}
+
+/* QPushButton would have resulted on the same thing
+If i have used this, it will affect all the QPushButton in the hireracht but since there is only one it will affect only this pushButton
+and Also this take precendence to the stylesheet of the parent widget 
+*/</string>
+       </property>
        <property name="text">
         <string>PushButton</string>
        </property>
