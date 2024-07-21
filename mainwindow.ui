@@ -42,6 +42,21 @@ QPushButton[pagematches=true] {
      border-width: 0px;
      border-radius: 3px;
 }
+
+QPushButton[pagematches=true]:hover {
+     color: white;
+     background-color: #66c011;
+     border-width: 0px;
+     border-radius: 3px;
+}
+
+QPushButton[pagematches=true]:pressed {
+     color: white;
+     background-color: yellow;
+     border-width: 0px;
+     border-radius: 3px;
+}
+
 </string>
    </property>
    <widget class="QWidget" name="verticalLayoutWidget">
